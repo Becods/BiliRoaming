@@ -113,7 +113,7 @@ class SettingDialog(context: Context) : AlertDialog.Builder(context) {
             findPreference("long_press_speed")?.onPreferenceClickListener = this
             checkCompatibleVersion()
             searchItems = retrieve(preferenceScreen)
-            checkUpdate()
+            // checkUpdate()
         }
 
         @Deprecated("Deprecated in Java")

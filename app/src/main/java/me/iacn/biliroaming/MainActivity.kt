@@ -52,7 +52,7 @@ class MainActivity : Activity() {
             findPreference("feature").onPreferenceClickListener = this
             findPreference("setting").onPreferenceClickListener = this
             findPreference("clear_hook_cache").onPreferenceClickListener = this
-            checkUpdate()
+            // checkUpdate()
         }
 
         @Deprecated("Deprecated in Java")
